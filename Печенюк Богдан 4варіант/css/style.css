@@ -1,0 +1,39 @@
+#oval {
+	width: 200px;
+	height: 100px;
+	background: blue;
+	-moz-border-radius: 100px / 50px;
+	-webkit-border-radius: 100px / 50px;
+	border-radius: 100px / 50px;
+	left: 0px; top: 0px;
+	position: absolute; width: 220px;
+	margin: 350px 615px;
+}
+
+#square {
+	width: 220px;
+	height: 220px;
+	background: pink;
+	left: 0px; top: 0px;
+	position: absolute; width: 250px;
+	margin: 300px 600px;
+}
+
+#triangle-topright {
+	width: 0;
+	height: 0;
+	border-top: 100px solid blue; 
+	border-left: 100px solid transparent;
+	position: absolute; width: 0px;
+	margin: 480px 200px;
+	animation:
+}
+
+#triangle-bottomleft {
+	width: 0;
+	height: 0;
+	border-bottom: 100px solid yellow; 
+	border-right: 100px solid transparent;
+	position: absolute; width: 0px;
+	margin: 500px 200px;		
+}
